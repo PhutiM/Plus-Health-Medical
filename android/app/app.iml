@@ -178,6 +178,7 @@
     <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.15.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.facebook.fresco:nativeimagetranscoder:2.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.collection:collection:1.0.0@jar" level="project" />
+    <orderEntry type="module" module-name="react-native-screens" />
     <orderEntry type="module" module-name="react-native-reanimated" />
     <orderEntry type="module" module-name="@aws-amplify_pushnotification" />
     <orderEntry type="module" module-name="react-native-vector-icons" />
