@@ -21,7 +21,6 @@
     ]
   },
   "dependencies": {
-    "@react-native-community/async-storage": "^1.6.2",
     "babel-plugin-root-import": "^6.4.1",
     "lodash.isequal": "^4.5.0",
     "react": "16.9.0",
