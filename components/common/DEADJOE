@@ -1,0 +1,98 @@
+
+*** These modified files were found in JOE when it aborted on Mon Jul 22 15:26:32 2019
+*** JOE was aborted by UNIX signal 1
+
+*** File 'Input.js'
+import React from 'react';
+import {TextInput, View, Text} from 'react-native';
+
+const Input = ({ label, value, onChangeText, placeholder, secureTextEntry }) => {
+  const {inputStyle, lableStyle, containerStyle} = styles;
+
+    return(
+        <View style={containerStyle} >
+          <Text style={lableStyle}>{label}</Text>
+          <TextInput 
+           secureTextEntry={secureTextEntry}
+           placeholder={placeholder}
+           autoCorrect={false}
+           value={value}
+           style={inputStyle}
+           onChangeText={onChangeText}
+          />
+        </View>
+    );
+};
+
+const styles = {
+  inputStyle: {
+    color: '#000',
+    paddingRight: 5,
+    paddingLeft: 18,
+    fontSize: 18,
+    lineHeight: 23,
+    flex:2
+  },
+  lableStyle: {
+   fontSize: 18,
+alue, onChangeText, placeholder, secureTextEntry }) => {
+  const {inputStyle, lableStyle, containerStyle} = styles;
+  
+      return(
+              <View style={containerStyle} >
+                        <Text style={lableStyle}>{label}</Text>
+                                  <TextInput
+                                             secureTextEntry={secureTextEntry}
+                                                        placeholder={placeholder}
+                                                                   autoCorrect={false}
+                                                                              value={value}
+                                                                                         style={inputStyle}
+                                                                                                    onChangeText={onChangeText}
+                                                                                                              />
+                                                                                                                      </View>
+                                                                                                                          );
+                                                                                                                          };
+                                                                                                                             paddingLeft: 20,
+   flex:1
+  },
+  containerStyle: {
+    height:40,
+    flex:1,
+    flexDirection: 'row',
+    alignItems: 'center'
+  } 
+ 
+ 
+ }
+ 
+
+export { Input };
+
+
+
+
+
+*** File '(Unnamed)'
+adp
+adp
+user
+<<<
+<<<
+<<<
+<<<
+<<<
+<<
+andredupreez
+
+*** File '(Unnamed)'
+build.gradle
+my-upload-key.keystore
+gradle.properties
+gradle.properties
+my-upload-key-1.keystore
+my-upload-key-1.keystore
+gradle.properties
+/Users/phuti.mokwena/.bash_profile
+gradle.properties
+gradle.properties
+Input.js

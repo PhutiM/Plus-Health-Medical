@@ -1,0 +1,50 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "pmtpush-dev-20191030132320-authRole",
+            "UnauthRoleArn": "arn:aws:iam::629484173666:role/pmtpush-dev-20191030132320-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::629484173666:role/pmtpush-dev-20191030132320-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "pmtpush-dev-20191030132320-deployment",
+            "UnauthRoleName": "pmtpush-dev-20191030132320-unauthRole",
+            "StackName": "pmtpush-dev-20191030132320",
+            "StackId": "arn:aws:cloudformation:eu-west-1:629484173666:stack/pmtpush-dev-20191030132320/aea51cb0-fb07-11e9-9192-028618ba0c7c"
+        },
+        "categories": {
+            "auth": {
+                "pmtpushbc4df381": {}
+            },
+            "notifications": {
+                "Pinpoint": {
+                    "Name": "pmtpush-dev",
+                    "Id": "c2b9b33e0ce749c081bef4ab80ef4508",
+                    "Region": "eu-west-1"
+                }
+            }
+        }
+    },
+    "develop": {
+        "awscloudformation": {
+            "AuthRoleName": "pmtpush-develop-20191030181725-authRole",
+            "UnauthRoleArn": "arn:aws:iam::629484173666:role/pmtpush-develop-20191030181725-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::629484173666:role/pmtpush-develop-20191030181725-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "pmtpush-develop-20191030181725-deployment",
+            "UnauthRoleName": "pmtpush-develop-20191030181725-unauthRole",
+            "StackName": "pmtpush-develop-20191030181725",
+            "StackId": "arn:aws:cloudformation:eu-west-1:629484173666:stack/pmtpush-develop-20191030181725/c3a28200-fb30-11e9-85c0-06b2a79f881c"
+        },
+        "categories": {
+            "auth": {
+                "pmtpushbc4df381": {}
+            },
+            "notifications": {
+                "Pinpoint": {
+                    "Name": "pmtpush-develop",
+                    "Id": "f7171321676249d59a6bf20f7e271b6f",
+                    "Region": "eu-west-1"
+                }
+            }
+        }
+    }
+}

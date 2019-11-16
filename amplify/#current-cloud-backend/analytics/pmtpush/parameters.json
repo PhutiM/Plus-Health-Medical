@@ -1,0 +1,20 @@
+{
+    "appName": "pmtpush",
+    "roleName": "pinpointLambdaRolede47ace2",
+    "cloudWatchPolicyName": "cloudWatchPolicyde47ace2",
+    "pinpointPolicyName": "pinpointPolicyde47ace2",
+    "authPolicyName": "pinpoint_amplify_de47ace2",
+    "unauthPolicyName": "pinpoint_amplify_de47ace2",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
