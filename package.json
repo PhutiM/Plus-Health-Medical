@@ -21,6 +21,9 @@
     ]
   },
   "dependencies": {
+    "appcenter": "2.6.0",
+    "appcenter-analytics": "2.6.0",
+    "appcenter-crashes": "2.6.0",
     "babel-plugin-root-import": "^6.4.1",
     "lodash.isequal": "^4.5.0",
     "react": "16.9.0",
