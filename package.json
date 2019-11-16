@@ -27,7 +27,7 @@
     "babel-plugin-root-import": "^6.4.1",
     "lodash.isequal": "^4.5.0",
     "react": "16.9.0",
-    "react-native": "0.61.2",
+    "react-native": "0.60",
     "react-native-data-table": "^0.2.1",
     "react-native-flash-message": "^0.1.15",
     "react-native-gesture-handler": "^1.4.1",
